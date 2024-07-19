@@ -130,7 +130,22 @@ Q1 = MCD2[col].quantile(0.25)
 Q3 = MCD2[col].quantile(0.75)
 IQR = Q3 - Q1
 MCD2= MCD2[~((MCD2[col] < (Q1 - 1.5*IQR))| (MCD2[col] > (Q3 + 1.5*IQR))).any(axis=1)]
+
 ```
+
+# McDonald's could improve the nutritional profile of their menu.
+ 
+•	Include information on allergens and ingredients to cater to customers with dietary restrictions.
+•	Remove food items which are very high in calories or reduce its proportion 
+
+•	Food with very low protein you can items with it to have protein consumption.
+
+•	Implement a system for customers to provide feedback on the nutritional information provided. This can be through surveys, app reviews, or in-store feedback forms.
+
+•	Can give discount or reduce price on healthy meals. 
+
+•	Keep price of unhealthy meals a little higher.
+
 
 
 
